@@ -1,0 +1,25 @@
+.title {
+  font-size: var(--fonts-text-reg-fontSize);
+  font-weight: var(--fonts-text-reg-fontWeight);
+  line-height: var(--fonts-text-reg-lineHeight);
+  color: var(--colors-structure-40);
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: var(--spacers-spacer-r);
+  color: var(--colors-structure-40);
+  font-size: var(--fonts-text-reg-fontSize);
+  font-weight: var(--fonts-text-reg-fontWeight);
+  line-height: var(--fonts-text-reg-lineHeight);
+}
+
+.hr {
+  margin-bottom: var(--spacers-spacer-r);
+}
+
+.loading {
+  min-height: 48px;
+}

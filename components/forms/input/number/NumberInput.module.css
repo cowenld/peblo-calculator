@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--spacers-spacer-r);
+}
+
+.label {
+  color: var(--colors-structure-40);
+  font-size: var(--fonts-text-s-fontSize);
+  font-weight: var(--fonts-text-s-fontWeight);
+  line-height: var(--fonts-text-s-lineHeight);
+  margin-right: var(--spacers-spacer-r);
+}
+
+.input {
+  border: 1px solid var(--colors-structure-80);
+  border-radius: var(--radii-radii-s);
+  font-size: var(--fonts-text-reg-med-fontSize);
+  font-weight: var(--fonts-text-reg-med-fontWeight);
+  color: var(--colors-structure-40);
+  line-height: var(--fonts-text-reg-med-lineHeight);
+  padding: var(--spacers-spacer-r);
+}

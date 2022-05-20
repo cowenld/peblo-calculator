@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background: var(--colors-structure-95);
+  border-radius: var(--spacers-spacer-s);
+  padding: var(--spacers-spacer-xl);
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  transition: color var(--transition-time-med) linear,
+    border-color var(--transition-time-med) linear;
+  border: 1px solid transparent;
+  padding: var(--spacers-spacer-s) var(--spacers-spacer-l);
+
+  align-items: center;
+  background-color: var(--colors-warning);
+  border: 0;
+  border: var(--spacers-spacer-2xs) solid var(--colors-structure-0);
+  border-radius: var(--spacers-spacer-xs);
+  color: var(--colors-structure-0);
+  cursor: pointer;
+  display: inline-block;
+  justify-content: center;
+  padding: var(--spacers-spacer-r) var(--spacers-spacer-xl);
+  transition: var(--transition-time-med) ease-out;
+  margin-top: var(--spacers-spacer-s);
+  font-weight: var(--fonts-text-s-medium-fontSize);
+  font-weight: var(--fonts-text-s-medium-fontWeight);
+  line-height: var(--fonts-text-s-medium-lineHeight);
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  color: var(--colors-primary-60);
+  border-color: var(--colors-primary-60);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  margin: var(--spacers-spacer-r) 0 var(--spacers-spacer-xl) 0;
+}
